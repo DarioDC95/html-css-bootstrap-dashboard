@@ -72,6 +72,10 @@ aside ul {
     list-style-type: none;
     padding: 0;
 }
+
+aside a:hover {
+    background-color: #ffffff52;
+}
 /* fine side-bar */
 
 /* corpo della pagina */
