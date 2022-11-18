@@ -34,7 +34,7 @@ header .search-simbol {
 }
 
 header .input-search{
-    -webkit-appearance: none;
+    -webkit-appearance-: none;
     border: none;
     border-radius: 7px;
     background-color: #e5e5e5;
