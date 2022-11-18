@@ -18,7 +18,41 @@
     
     <!-- testa della pagina -->
     <header>
-
+        <div class="mycontainer w-100 px-3 bg-white">
+            <div class="myrow">
+                <div class="mycol">
+                    <div class="content d-flex align-items-center">
+                        <img class="d-none d-lg-block" src="./img/logo.svg" alt="Boolean Logo">
+                        <img class="logo-mobile d-lg-none" src="./img/mobile-logo.png" alt="Boolean Logo">
+                        <div class="input-search-group d-flex align-items-center w-100 mx-3">
+                            <span class="search-simbol py-2 ps-2 pe-1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="search" class="input-search py-2 pe-1 w-100" placeholder="Prova a cercare: Lezioni di Laravel">
+                        </div>
+                        <ul class="navbar-nav flex-row align-items-center me-auto">
+                            <li class="nav-item d-none d-lg-block">
+                                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                            </li>
+                            <li class="nav-item mx-4 d-none d-lg-block">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                            </li>
+                            <li class="nav-item d-none d-lg-block me-4">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell text-warning"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- contenitore comune basso -->
@@ -26,7 +60,7 @@
 
         <!-- side-bar -->
         <aside>
-
+            
         </aside>
 
         <!-- corpo della pagina -->
