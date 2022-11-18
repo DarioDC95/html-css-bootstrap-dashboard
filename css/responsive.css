@@ -1,5 +1,13 @@
 @media screen and (min-width: 992px) {
     aside {
-        width: 200px;
+        width: 150px;
+    }
+
+    aside .fa-house, aside .fa-signal {
+        margin-right: 15px;
+    }
+    
+    aside .fa-chart-simple, aside .fa-gear{
+        margin-right: 20px;
     }
 }

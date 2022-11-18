@@ -5,6 +5,10 @@
     box-shadow: 0px 0px 0px 1px red inset;
 }
 
+.underline-none {
+    text-decoration: none;
+}
+
 /* testa della pagina */
 header {
     height: 80px;
@@ -37,6 +41,10 @@ header .input-search{
     padding-left: 35px;
 }
 
+header .input-search::placeholder {
+    font-size: 14px;
+}
+
 header .input-search:focus-visible {
     outline: none;
     box-shadow: 0px 0px 5px 3px lightblue;
@@ -54,7 +62,15 @@ header .input-search:focus-visible {
 aside {
     height: 100%;
     width: 70px;
+    padding: 30px 0;
     background-color: #051e34;
+    display: flex;
+    justify-content: center;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
 }
 /* fine side-bar */
 
