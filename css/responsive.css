@@ -1,4 +1,6 @@
 @media screen and (min-width: 992px) {
+
+    /* side-bar */
     aside {
         width: 150px;
     }
@@ -10,4 +12,19 @@
     aside .fa-chart-simple, aside .fa-gear{
         margin-right: 20px;
     }
+
+    /* corpo della pagina */
+    /* top-bar */
+    /* dropdown */
+    #top-bar .mydropdown-content {
+        position: static;
+        width: auto;
+        padding: 0;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        opacity: 1;
+        pointer-events: auto;
+    }
 }
+

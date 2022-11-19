@@ -102,7 +102,56 @@
         <main>
            
             <!-- top-bar -->
-            <section id="top-bar"></section>
+            <section id="top-bar">
+                <div class="container-fluid">
+                    <div class="row gy-4">
+                        <div class="col-12 col-md-4 order-md-2 col-lg-3">
+                            <div class="mycard d-flex align-items-center">
+                                <div class="text-white me-3">Nuovo Studente</div>
+                                <div class="offcanvas-content">
+                                    <button class="btn border-white text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            ...
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 order-md-0 col-lg-6">
+                            <div class="mycard d-flex flex-column">
+                                <div class="d-flex align-items-baseline mb-3">
+                                    <div class="fs-2 text-white me-3">Boolean</div>
+                                    <a class="topbar-link d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">Piano blaze</a>
+                                </div>
+                                <div class="d-flex align-items-baseline">
+                                    <a class="topbar-link me-2 d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">3 App</a>
+                                    <div class="me-2"><i class="fa-solid fa-angles-right text-white"></i></div>
+                                    <div class="mydropdown">
+                                        <button class="topbar-link d-inline-block d-lg-none text-white underline-none px-2 py-1 rounded-circle" href="#"><i class="fa-solid fa-plus"></i></button>
+                                        <div class="mydropdown-content">
+                                            <a class="topbar-link me-1 d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">Boolean mobile app</a>
+                                            <a class="topbar-link me-1 d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">Boolean web app</a>
+                                            <a class="topbar-link me-1 d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">Boolean blog app</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 order-md-1 col-lg-3">
+                            <div class="mycard">
+                                <div class="text-white mb-3">Studenti online negli ultimi 30 minuti</div>
+                                <div class="fs-2 text-white">125</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!-- contenuto main -->
             <section id="main-content">
