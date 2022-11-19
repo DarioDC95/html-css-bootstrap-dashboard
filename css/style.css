@@ -166,10 +166,6 @@ main {
 }
 
 /* table */
-#main-content .card-body {
-    padding-bottom: 30px;
-}
-
 #main-content .table-classes {
     width: 100%;
 }
