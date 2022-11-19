@@ -26,5 +26,11 @@
         opacity: 1;
         pointer-events: auto;
     }
+    /* fine dropdown */
+
+    /* off-canvas */
+    #top-bar .offcanvas {
+        --bs-offcanvas-width:800px
+    }
 }
 

@@ -141,3 +141,8 @@ main {
     margin-bottom: 5px;
 }
 /* fine dropdown */
+
+/* off-canvas */
+#top-bar .offcanvas {
+    --bs-offcanvas-width:100%
+}
