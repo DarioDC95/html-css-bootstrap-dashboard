@@ -1,3 +1,18 @@
+@media screen and (min-width: 768px) {
+    /* main-content */
+    #main-content .table-classes th:first-child {
+        width: 40%;
+    }
+
+    #main-content .table-classes th:nth-child(3), #main-content .table-classes th:nth-child(2), #main-content .table-classes td:nth-child(3), #main-content .table-classes td:nth-child(2) {
+        display: table-cell;
+    }
+
+    #main-content .table-classes img {
+        display: inline-block;
+    }
+}
+
 @media screen and (min-width: 992px) {
 
     /* side-bar */
