@@ -121,8 +121,8 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mycard">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                                                <label for="first-name" class="form-label">Nome</label>
+                                                                <input type="text" id="first-name" class="form-control" placeholder="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -130,8 +130,8 @@
                                                         <div class="mycard">
                                                             <div class="mb-3">
                                                                 <div class="mb-3">
-                                                                    <label for="exampleFormControlInput1" class="form-label">Cognome</label>
-                                                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                                                    <label for="surname" class="form-label">Cognome</label>
+                                                                    <input type="text" id="surname" class="form-control" placeholder="">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -139,10 +139,10 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mycard">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                                                <label for="email" class="form-label">Email address</label>
                                                                 <div class="input-group">
                                                                     <span class="input-group-text" id="basic-addon1">@</span>
-                                                                    <input type="email" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                                                    <input type="email" class="form-control" id="email" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -150,8 +150,8 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mycard">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Password</label>
-                                                                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                                                <label for="password" class="form-label">Password</label>
+                                                                <input type="password" id="password" class="form-control" placeholder="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -160,8 +160,8 @@
                                                     <div class="col">
                                                         <div class="mycard">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                                                <label for="address" class="form-label">Indirizzo</label>
+                                                                <input type="text" class="form-control" id="address" placeholder="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -170,16 +170,16 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mycard">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Città</label>
-                                                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                                                <label for="country" class="form-label">Città</label>
+                                                                <input type="text" id="country" class="form-control" placeholder="">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-4">
                                                         <div class="mycard">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">Stato</label>
-                                                                <select class="form-select" id="inputGroupSelect01">
+                                                                <label for="state" class="form-label">Stato</label>
+                                                                <select class="form-select" id="state">
                                                                     <option selected>Scegli...</option>
                                                                     <option value="1">Italia</option>
                                                                     <option value="2">Francia</option>
@@ -191,8 +191,8 @@
                                                     <div class="col-12 col-md-2">
                                                         <div class="mycard">
                                                             <div class="mb-3">
-                                                                <label for="exampleFormControlInput1" class="form-label">CAP</label>
-                                                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                                                <label for="cap" class="form-label">CAP</label>
+                                                                <input type="number" id="cap" class="form-control" placeholder="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -201,8 +201,8 @@
                                                     <div class="col">
                                                         <div class="mycard">
                                                             <div class="mb-5">
-                                                                <label for="exampleFormControlInput1" class="form-label">Foto</label>
-                                                                <input type="file" class="form-control" id="inputGroupFile02">
+                                                                <label for="picture-file" class="form-label">Foto</label>
+                                                                <input type="file" class="form-control" id="picture-file">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -211,8 +211,8 @@
                                                     <div class="col">
                                                         <div class="mycard">
                                                             <div class="form-check mb-3">
-                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                                <label class="form-check-label" for="flexCheckDefault">
+                                                                <input class="form-check-input" id="mandatory-rule" type="checkbox" value="">
+                                                                <label class="form-check-label" for="mandatory-rule">
                                                                   Seleziona per proseguire
                                                                 </label>
                                                             </div>
@@ -237,7 +237,7 @@
                                     <a class="topbar-link me-2 d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">3 App</a>
                                     <div class="me-2"><i class="fa-solid fa-angles-right text-white"></i></div>
                                     <div class="mydropdown">
-                                        <button class="topbar-link d-inline-block d-lg-none text-white underline-none px-2 py-1 rounded-circle" href="#"><i class="fa-solid fa-plus"></i></button>
+                                        <button class="topbar-link d-inline-block d-lg-none text-white underline-none px-2 py-1 rounded-circle"><i class="fa-solid fa-plus"></i></button>
                                         <ul class="mydropdown-content">
                                             <li><a class="topbar-link me-2 d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">Boolean mobile app</a></li>
                                             <li><a class="topbar-link me-2 d-inline-block text-white underline-none px-2 py-1 rounded-pill" href="#">Boolean web app</a></li>
@@ -279,7 +279,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 75</span>
                                                 </td>
@@ -292,7 +292,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 76</span>
                                                 </td>
@@ -305,7 +305,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 77</span>
                                                 </td>
@@ -318,7 +318,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 78</span>
                                                 </td>
@@ -331,7 +331,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 79</span>
                                                 </td>
@@ -344,7 +344,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 80</span>
                                                 </td>
@@ -357,7 +357,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 81</span>
                                                 </td>
@@ -370,7 +370,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td scope="row">
+                                                <td>
                                                     <img src="./img/class-avatar.jpg" alt="Slash">
                                                     <span>Classe 82</span>
                                                 </td>
@@ -435,24 +435,24 @@
                                     <div class="border border-1 rounded">
                                         <div class="py-2 px-3 border-bottom">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
+                                                <input class="form-check-input" id="kickoff-classes" type="checkbox" value="">
+                                                <label class="form-check-label" for="kickoff-classes">
                                                 Kickoff nuove classi
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="py-2 px-3 border-bottom">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
+                                                <input class="form-check-input" id="remind-classes" type="checkbox" value="">
+                                                <label class="form-check-label" for="remind-classes">
                                                 Lezione su Bootstrap 5 in classe #75
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="py-2 px-3">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
+                                                <input class="form-check-input" id="check-username" type="checkbox" value="">
+                                                <label class="form-check-label" for="check-username">
                                                 Controllare username Github studenti
                                                 </label>
                                             </div>
