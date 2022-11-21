@@ -126,27 +126,35 @@ main {
     position: absolute;
     top: 40px;
     left: -30px;
-    width: 200px;
     padding: 10px;
     border-radius: 7px;
     background-color: #1b72e8;
     box-shadow: 0px 0px 5px 3px black;
-    opacity: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    opacity: 0;
     pointer-events: none;
     list-style-type: none;
     z-index: 5;
 }
 
 #top-bar .mydropdown-content .topbar-link {
-    margin-bottom: 5px;
+    display: block;
 }
 /* fine dropdown */
 
 /* off-canvas */
 #top-bar .offcanvas {
-    --bs-offcanvas-width:100%
+    --bs-offcanvas-width:100%;
+}
+
+#top-bar .button-offcanvas {
+    color: white;
+}
+
+#top-bar .button-offcanvas:hover {
+    color: #1b72e8;
+    background-color: white;
 }
 
 #top-bar .offcanvas .save-button {

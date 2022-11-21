@@ -32,13 +32,20 @@
     /* dropdown */
     #top-bar .mydropdown-content {
         position: static;
-        width: auto;
         padding: 0;
         border-radius: 0;
         background-color: transparent;
+        flex-direction: row;
+        flex-wrap: wrap;
         box-shadow: none;
         opacity: 1;
         pointer-events: auto;
+    }
+
+    #top-bar .mydropdown-content .topbar-link {
+        display: inline-block;
+        margin-left: 5px;
+        border-radius: 20px;
     }
     /* fine dropdown */
 
