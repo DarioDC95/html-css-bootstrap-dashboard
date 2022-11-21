@@ -136,6 +136,7 @@ main {
     flex-wrap: wrap;
     pointer-events: none;
     list-style-type: none;
+    z-index: 5;
 }
 
 #top-bar .mydropdown-content .topbar-link {
